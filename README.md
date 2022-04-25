@@ -2,8 +2,17 @@
 
 This repository implements switch-case augmentation and hard negative retrieval from the paper "Improving Contrastive Learning of Sentence Embeddings with Case-Augmented Positives and Retrieved Negatives". Combining the two approaches with SimCSE leads to the model called Contrastive learning with Augmented and Retrieved Data for Sentence embedding (CARDS).
 
+Table 1. Example of Case-switched and Retrieved sample sentences.
+
+| Type           | Sentence   |
+|----------------|--------------|
+| Original       | The story of the first book continues. |
+| Case-switched  | The story of the first book Continues. |
+| Retrieved      | The story begins as a typical love story. |
+| Random         | This is held as a temporary result. |
+
 ## Results and Checkpoints
-Table 1. Performance on sentence embedding tasks
+Table 2. Performance on sentence embedding tasks
 
 | Pretraining    | Finetuning   | STS12 | STS13 | STS14 | STS15 | STS16 | STSb  | SICK-R | Avg.  |
 |----------------|--------------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:------:|:-----:|
@@ -13,7 +22,7 @@ Table 1. Performance on sentence embedding tasks
 Download link:
 CARDS-roberta-base ([Download, 440MB](https://dirl-sas-open.oss-cn-hangzhou.aliyuncs.com/cards_roberta_base.zip)), CARDS-roberta-large ([Download, 1.23GB](https://dirl-sas-open.oss-cn-hangzhou.aliyuncs.com/cards_roberta_large.zip)).
 
-Table 2. Performance on GLUE tasks
+Table 3. Performance on GLUE tasks
 
 | Pretraining        | Finetuning         | MNLI-m | QQP  | QNLI | SST-2 | CoLA | STS-B | MRPC | RTE  | Avg. |
 |--------------------|--------------------|:------:|:----:|:----:|:-----:|:----:|:-----:|:----:|:----:|:----:|
