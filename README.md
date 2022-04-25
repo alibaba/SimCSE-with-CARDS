@@ -7,17 +7,17 @@ Table 1. Performance on sentence embedding tasks
 
 | Pretraining    | Finetuning   | STS12 | STS13 | STS14 | STS15 | STS16 | STSb  | SICK-R | Avg.  |
 |----------------|--------------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:------:|:-----:|
-| roberta-base   | SimCSE+CARDS | 72.65 | 84.26 | 76.52 | 82.98 | 82.73 | 82.04 | 70.66  | 78.83 |
-| roberta-large  | SimCSE+CARDS | 74.63 | 86.27 | 79.25 | 85.93 | 83.17 | 83.86 | 72.77  | 80.84 |
+| roberta-base   | SimCSE + CARDS | 72.65 | 84.26 | 76.52 | 82.98 | 82.73 | 82.04 | 70.66  | 78.83 |
+| roberta-large  | SimCSE + CARDS | 74.63 | 86.27 | 79.25 | 85.93 | 83.17 | 83.86 | 72.77  | 80.84 |
 
 Download link:
-CARDS-roberta-base ([Download, 440MB](http://dirl-sas-open.oss-cn-hangzhou.aliyuncs.com/cards_roberta_base.zip)), CARDS-roberta-large ([Download, 1.23GB](http://dirl-sas-open.oss-cn-hangzhou.aliyuncs.com/cards_roberta_large.zip)).
+CARDS-roberta-base ([Download, 440MB](https://dirl-sas-open.oss-cn-hangzhou.aliyuncs.com/cards_roberta_base.zip)), CARDS-roberta-large ([Download, 1.23GB](https://dirl-sas-open.oss-cn-hangzhou.aliyuncs.com/cards_roberta_large.zip)).
 
 Table 2. Performance on GLUE tasks
 
 | Pretraining        | Finetuning         | MNLI-m | QQP  | QNLI | SST-2 | CoLA | STS-B | MRPC | RTE  | Avg. |
 |--------------------|--------------------|:------:|:----:|:----:|:-----:|:----:|:-----:|:----:|:----:|:----:|
-| debertav2-xxlarge  | R-drop+Switch-case | 92.0   | 93.0 | 96.3 | 97.2  | 75.5 | 93.6  | 93.9 | 94.2 | 91.7 |
+| debertav2-xxlarge  | R-drop + Switch-case | 92.0   | 93.0 | 96.3 | 97.2  | 75.5 | 93.6  | 93.9 | 94.2 | 91.7 |
 
 ## Usage
 This repo is built based on [Huggingface Transformers](https://github.com/huggingface/transformers) and [SimCSE](https://github.com/princeton-nlp/SimCSE). See requirements.txt for package versions. 
