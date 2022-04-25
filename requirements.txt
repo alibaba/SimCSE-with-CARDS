@@ -1,0 +1,4 @@
+transformers==4.11.3
+datasets==1.12.1
+pytorch>=1.7.0
+cudatoolkit==10.2
